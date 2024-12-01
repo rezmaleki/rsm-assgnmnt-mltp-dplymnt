@@ -1,0 +1,10 @@
+readonly_password = "readonly user password"
+
+user_passwords = [
+  "password of user 1",
+  "passwordof user  2",
+  "passwordof user 3"
+]
+
+postgres_user = "admin of postgres"
+postgres_password = "pasword of admin postgres"
