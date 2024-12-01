@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  db1:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example1
+    ports:
+      - "127.0.0.1:5433:5432"
+
+  db2:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example2
+    ports:
+      - "127.0.0.1:5434:5432"
+
+  db3:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example3
+    ports:
+      - "127.0.0.1:5435:5432"
+

@@ -1,0 +1,24 @@
+database_count = 3
+readonly_user  = "readonly_user"
+readonly_password = "secure_readonly_password"
+
+user_passwords = [
+  "password1",
+  "password2",
+  "password3"
+]
+
+postgresql_instances = {
+  dev = {
+    port     = 5433
+    password = "dev_password"
+  }
+  staging = {
+    port     = 5434
+    password = "staging_password"
+  }
+  prod = {
+    port     = 5435
+    password = "prod_password"
+  }
+}
